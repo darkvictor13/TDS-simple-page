@@ -1,0 +1,17 @@
+{
+  "name": "TDS-simple-page",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:darkvictor13/TDS-simple-page.git",
+  "author": "Victor Emanuel Almeida",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4"
+  }
+}
