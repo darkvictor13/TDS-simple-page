@@ -15,5 +15,8 @@
     "bootstrap-icons": "^1.10.5",
     "common-js": "^0.3.8",
     "jquery": "^3.6.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }
