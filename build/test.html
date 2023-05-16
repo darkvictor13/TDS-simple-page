@@ -1,39 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Tela de Login</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skyrim Item Store</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .jumbotron {
+      background-image: url("skyrim-background.jpg");
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+      margin-bottom: 0;
+    }
+
+    .jumbotron h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .jumbotron p {
+      font-size: 24px;
+    }
+
+    .item {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .item img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .item h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .item p {
+      font-size: 18px;
+    }
+
+    .btn-buy {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .btn-buy:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
-	<div class="container">
-		<div class="row justify-content-center mt-5">
-			<div class="col-md-4">
-				<div class="card">
-					<div class="card-header">
-						<h4 class="text-center">Login</h4>
-					</div>
-					<div class="card-body">
-						<form>
-							<div class="form-group">
-								<label for="email">E-mail:</label>
-								<input type="email" class="form-control" id="email" placeholder="Insira seu e-mail">
-							</div>
-							<div class="form-group">
-								<label for="senha">Senha:</label>
-								<input type="password" class="form-control" id="senha" placeholder="Insira sua senha">
-							</div>
-							<div class="form-group text-center">
-								<button type="submit" class="btn btn-primary">Entrar</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Importando JavaScript do Bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <div class="jumbotron">
+    <h1>Skyrim Item Store</h1>
+    <p>Welcome to the ultimate store for Skyrim items!</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="item">
+          <img src="item1.jpg" alt="Item 1">
+          <h2>Dragonbone Sword</h2>
+          <p>A powerful two-handed sword made from dragon bones.</p>
+          <p>Price: $100</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="item">
+          <img src="item2.jpg" alt="Item 2">
+          <h2>Daedric Armor</h2>
+          <p>An incredibly strong armor forged in the depths of Oblivion.</p>
+          <p>Price: $200</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+<div class="col-md-6">
+        <div class="item">
+          <img src="item2.jpg" alt="Item 2">
+          <h2>Daedric Armor</h2>
+          <p>An incredibly strong armor forged in the depths of Oblivion.</p>
+          <p>Price: $200</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+<div class="col-md-6">
+        <div class="item">
+          <img src="item2.jpg" alt="Item 2">
+          <h2>Daedric Armor</h2>
+          <p>An incredibly strong armor forged in the depths of Oblivion.</p>
+          <p>Price: $200</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+<div class="col-md-6">
+        <div class="item">
+          <img src="item2.jpg" alt="Item 2">
+          <h2>Daedric Armor</h2>
+          <p>An incredibly strong armor forged in the depths of Oblivion.</p>
+          <p>Price: $200</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+<div class="col-md-6">
+        <div class="item">
+          <img src="item2.jpg" alt="Item 2">
+          <h2>Daedric Armor</h2>
+          <p>An incredibly strong armor forged in the depths of Oblivion.</p>
+          <p>Price: $200</p>
+          <button class="btn btn-buy">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
