@@ -24,6 +24,11 @@ bootstrap@^5.2.3:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.3.tgz#54739f4414de121b9785c5da3c87b37ff008322b"
   integrity sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==
 
+common-js@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/common-js/-/common-js-0.3.8.tgz#f4328918b4ba376f981ad33a1b1fbb6614126ecb"
+  integrity sha512-83poCK3wlRnYqWdolJiYrMYvaBFzlDO1RwQVti2ZDBR2K5ifBGksu2cw3ZKFioEqB8FVLUmuu3OXxFUlSBk5UQ==
+
 jquery@^3.6.4:
   version "3.6.4"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.4.tgz#ba065c188142100be4833699852bf7c24dc0252f"
