@@ -66,7 +66,6 @@ const products: Product[] = [
 ];
 
 const itemsDiv = document.getElementById("items-div");
-
 products.forEach((product) => {
   const newItemDiv = document.createElement("div");
   newItemDiv.classList.add("col-md-4");
