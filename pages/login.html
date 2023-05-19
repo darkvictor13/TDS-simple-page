@@ -7,31 +7,37 @@
   <title>Login</title>
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../src/initial_pages.css">
   <script src="../node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
 </head>
 
 <body>
   <div class="container">
-    <div class="mt-6 d-flex flex-column align-items-center justify-content-center">
-      <h1 class="mt-3">Sign in</h1>
-      <form class="mt-1" id="login-form">
-        <div class="mb-3">
-          <label for="email" class="form-label">Email Address</label>
-          <input type="email" class="form-control" id="email" name="email" required autofocus>
-        </div>
-        <div class="mb-3">
-          <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" name="password" required>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="remember" name="remember" value="remember">
-          <label class="form-check-label" for="remember">Remember me</label>
-        </div>
-        <div class="mb-3">
-          <a href="home.html">Create an account</a>
-        </div>
-        <button type="submit" onclick="handleSubmit(event)" class="btn btn-primary mb-3">Sign In</button>
-      </form>
+    <div class="card col-lg-4">
+      <div class="card-body">
+        <h1 class="mb-5 text-center">Sign in</h1>
+        <form id="login-form">
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" required autofocus>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="remember" name="remember" value="remember">
+            <label class="form-check-label" for="remember">Remember me</label>
+          </div>
+          <div class="mb-3 d-flex flex-row" style="justify-content: space-evenly;">
+            <a href="forgot-password.html">Forgot password</a>
+            <a href="create-account.html">Create account</a>
+          </div>
+          <div class="text-center">
+            <button type="submit" onclick="handleSubmitLogin(event)" class="btn btn-primary mb-3">Sign In</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <script src="../build/login.js" defer></script>

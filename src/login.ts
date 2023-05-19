@@ -7,7 +7,7 @@ function hasUpperCase(str: string) {
   return false;
 }
 
-function handleSubmit(event: Event) {
+function handleSubmitLogin(event: Event) {
   event.preventDefault();
 
   const email = (document.getElementById("email") as HTMLInputElement).value;
